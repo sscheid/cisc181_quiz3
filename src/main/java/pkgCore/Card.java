@@ -14,9 +14,6 @@ public class Card implements Comparable {
 		this.eSuit = eSuit;
 	}
 
-	//	TODO: Add a public 'getter' method for eRank and eSuit.  
-	//			Add a private 'setter' method for eRank and eSuit
-
 	public eRank geteRank() {
 		return eRank;
 	}
@@ -38,8 +35,8 @@ public class Card implements Comparable {
 		Card c = (Card) o;
 		//return 0;
 		return c.geteRank().compareTo(this.geteRank());
-		
-
-}
+		}
+	
+	
 	
 }
